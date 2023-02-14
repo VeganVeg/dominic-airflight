@@ -1,0 +1,53 @@
+:root {
+    --violet: #39184A;
+    --indigo: #541875;
+    --eminence: ##703E8B;
+    --gris: #D5D5D5;
+    --blanc: #ffffff;
+}
+
+@font-face {
+    font-family: 'antipastoBold';
+    src: url('/font/Antipasto-Pro-ExtraBold-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'antipastoRegular';
+    src: url('/font/Antipasto-Pro-Regular-trial.ttf') format('truetype');
+}
+
+.h1 {
+    font-size: 66px;
+    color: var(--indigo);
+}
+
+.h2 {
+    font-size: 60px;
+    color: var(--violet);
+}
+
+.h3 {
+    font-size: 40px;
+    color: var(--indigo);
+}
+
+.h4 {
+    font-size: 30px;
+    color: var(--violet);
+}
+
+.h5 {
+    font-size: 25px;
+    color: var(--violet);
+}
+
+.h6 {
+    font-size: 20px;
+    color: var(--violet);
+}
+
+/*--Styles--*/
+
+/*--Généraux--*/
+
+/*--Section Héros--*/
