@@ -1,3 +1,3 @@
 # GIF Optimisation Web - Air Flight
 ## Équipe:
-- Dominic
+- Dominic Yale
