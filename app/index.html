@@ -2,20 +2,70 @@
 <html lang="fr">
 
 <head>
+    <meta class="robots" name="noindex" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styles-app.css">
-    <link rel="stylesheet" href="css/styles-Ip.css">
+    <link rel="stylesheet" href="css/styles-lp.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navId">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
+
+<header></header>
+<main>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Hamburger button -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-
+            label="Affichage/masquage de la navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">logo</a>
+            <div id="mainNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a href="hero" class="nav-link">L'appli</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="fonctionnalites" class="nav-link">Fonctionnalités</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="voirPlus" class="nav-link">En savoir plus</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="titre col-lg-4">
+                <h1>Découvrez l'appli officielle du festival AIRFLIGHT</h1>
+                <h2>Tirez profit de cette appli qui rendra votre expérience fluide et sans compromis.</h2>
+                <button type="button" class="btn btn-secondary">Téléchargez maintenant</button>
+                </div>
+            <div class="col-lg-4">
+                <div class="phone">
+                    <iframe src="" width="100px" height="100px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid">
+        <p class="text-center text-lg-start">Dominic Yale</p><br>
+        <a class="github" href="https://github.com/VeganVeg/dominic-airflight">https://github.com/VeganVeg/dominic-airflight</a><br><br>
+            <p class="text-center text-lg-end">©2023</p>
+    </div>
+</footer>
 </body>
 
 </html>
