@@ -89,3 +89,12 @@ p{
     width: 100%;
     aspect-ratio: 5/9;
 }
+
+.card-text{
+    color: black;
+}
+
+.card-img{
+    height: 20vh;
+    object-fit: contain;
+}
