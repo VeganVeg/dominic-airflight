@@ -96,5 +96,5 @@ p{
 
 .card-img{
     height: 20vh;
-    object-fit: contain;
+    object-fit: cover;
 }
