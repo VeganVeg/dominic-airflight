@@ -90,11 +90,22 @@ p{
     aspect-ratio: 5/9;
 }
 
-.card-text{
-    color: black;
-}
-
 .card-img{
     height: 20vh;
     object-fit: cover;
+}
+
+.card-header{
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.fa{
+    font-style: normal;
+    font-size: 16px;
+}
+
+.img-link{
+    text-decoration: none;
+    color: var(--violet);
 }
