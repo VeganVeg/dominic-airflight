@@ -48,6 +48,10 @@ h6 {
 
 /*--Styles--*/
 
+body{
+    overflow-x: hidden;
+}
+
 .navbar{
     background-color: #703E8B;
 }
@@ -90,6 +94,20 @@ p{
     aspect-ratio: 5/9;
 }
 
+.iframe{
+    background-color: #703E8B;
+    height: 50%;
+    width: 100%;
+}
+
+.card-body{
+    background-color: #703E8B;
+}
+
+.card{
+    background-color: #703E8B;
+}
+
 .card-img{
     height: 20vh;
     object-fit: cover;
@@ -98,16 +116,19 @@ p{
 .card-header{
     font-size: 26px;
     text-decoration: none;
+    background-color: #703E8B;
 }
 
 .fa{
     font-style: normal;
     font-size: 16px;
+    background-color: #703E8B;
 }
 
 .img-link{
     text-decoration: none;
-    color: var(--violet);
+    color: var(--blanc);
+
 }
 
 .img-artist{
@@ -117,12 +138,14 @@ p{
 
 .photo-info{
     margin-top: 20px;
+    background-color:#703E8B;
 }
 
 .carte:hover{
     transition: all .2s ease-in-out;
 }
 
-#id{
-    
+.carte {
+    max-width: 200px;
+
 }
