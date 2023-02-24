@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="js/script.js"></script>
 
@@ -59,10 +60,11 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="carte">
         <div class="row">
             <h2>En vedette</h2>
-            <div class="col-4">
+            <!--carte-1-->
+            <div class="col-4 carte">
                 <a class="img-link" href="artwork.html">
                 <div class="card">
                     <img src="assets/artworks/file-sp-2018-thoka_maer-fig-8.1.gif" class="card-img-top card-img">
@@ -79,14 +81,20 @@
                                 20h
                             </div>
                         </div>
-                        <div>
-                            <img src="assets/artists/thoka_maer.jpg" class="rounded-circle img-artist" alt="">
+                        <div class="col-12 d-flex justify-content-between">
+                            <div class="photo-info">
+                                <img src="assets/artists/thoka_maer.jpg" class="rounded-circle img-artist" alt="">
+                            </div>
+                            <div class="photo-info">
+                                Plus d'info <i class='fa fa-angle-right' style='font-size:20px'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </a>
             </div>
-            <div class="col-4">
+            <!--carte-2-->
+            <div class="col-4 carte">
                 <a class="img-link" href="artwork.html">
                 <div class="card">
                     <img src="assets/artworks/dance-of-life-4.gif" class="card-img-top card-img">
@@ -103,14 +111,20 @@
                                 20h
                             </div>
                         </div>
-                        <div>
-                            <img src="assets/artists/thoka_maer.jpg" class="rounded-circle img-artist" alt="">
+                        <div class="col-12 d-flex justify-content-between">
+                            <div class="photo-info">
+                                <img src="assets/artists/Adam-Pizurnyi.gif" class="rounded-circle img-artist" alt="">
+                            </div>
+                            <div class="photo-info">
+                                Plus d'info <i class='fa fa-angle-right' style='font-size:20px'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </a>
             </div>
-            <div class="col-4">
+            <!--carte-3-->
+            <div class="col-4 carte">
                 <a class="img-link" href="artwork.html">
                 <div class="card">
                     <img src="assets/artworks/file-sp-2018-dave-strick-silent-majority.gif" class="card-img-top card-img">
@@ -127,8 +141,13 @@
                                 20h
                             </div>
                         </div>
-                        <div>
-                            <img src="assets/artists/thoka_maer.jpg" class="rounded-circle img-artist" alt="">
+                        <div class="col-12 d-flex justify-content-between">
+                            <div class="photo-info">
+                                <img src="assets/artists/dstrick252-20118.png" class="rounded-circle img-artist" alt="">
+                            </div>
+                            <div class="photo-info">
+                                Plus d'info <i class='fa fa-angle-right' style='font-size:20px'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -137,6 +156,7 @@
         </div>
     </div>
 </main>
+<!--pied-de-page-->
 <footer>
     <div class="container-fluid">
         <div class="row">

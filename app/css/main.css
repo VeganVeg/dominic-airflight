@@ -114,3 +114,15 @@ p{
     width: 50px;
     height: 50px;
 }
+
+.photo-info{
+    margin-top: 20px;
+}
+
+.carte:hover{
+    transition: all .2s ease-in-out;
+}
+
+#id{
+    
+}
