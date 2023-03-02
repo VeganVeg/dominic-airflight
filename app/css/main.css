@@ -48,31 +48,31 @@ h6 {
 
 /*--Styles--*/
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.navbar{
+.navbar {
     background-color: #703E8B;
 }
 
-footer{
+footer {
     padding: 1rem;
-   margin-top: 1rem;
-   background-color: #703E8B;
+    margin-top: 1rem;
+    background-color: #703E8B;
 }
 
-p{
+.contenu-bp {
     margin: 0;
     color: white;
 }
 
-.github{
+.github {
     text-decoration: none;
     color: white;
 }
 
-.github:hover{
+.github:hover {
     color: var(--violet);
 }
 
@@ -80,68 +80,68 @@ p{
 
 /*--Section Héros--*/
 
-.titre{
+.titre {
     display: block;
     align-items: center;
 }
 
-.row{
+.row {
     align-items: center;
 }
 
-.phone{
+.phone {
     width: 100%;
     aspect-ratio: 5/9;
 }
 
-.iframe{
+.iframe {
     background-color: #703E8B;
     height: 50%;
     width: 100%;
 }
 
-.card-body{
+.card-body {
     background-color: #703E8B;
 }
 
-.card{
+.card {
     background-color: #703E8B;
 }
 
-.card-img{
+.card-img {
     height: 20vh;
     object-fit: cover;
 }
 
-.card-header{
+.card-header {
     font-size: 26px;
     text-decoration: none;
     background-color: #703E8B;
 }
 
-.fa{
+.fa {
     font-style: normal;
     font-size: 16px;
     background-color: #703E8B;
 }
 
-.img-link{
+.img-link {
     text-decoration: none;
     color: var(--blanc);
 
 }
 
-.img-artist{
+.img-artist {
     width: 50px;
     height: 50px;
 }
 
-.photo-info{
+.photo-info {
     margin-top: 20px;
-    background-color:#703E8B;
+    background-color: #703E8B;
 }
 
-.carte:hover{
+.carte:hover {
     transition: all .2s ease-in-out;
 }
 
