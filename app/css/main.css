@@ -149,4 +149,6 @@ footer {
     max-width: 200px;
 }
 
-.card-fct {}
+.card-fct {
+    color: white;
+}
