@@ -323,7 +323,8 @@
                             mises à jour et nouvelles
                             fonctionnalités de l'appli, en plus de recevoir en primeur les détails des prochaines
                             éditions du festival.</p>
-                        <button type="button" class="btn btn-primary btn-lg d-md-flex justify-content-end">Je
+                        <button type="button" class="btn btn-primary btn-lg d-md-flex justify-content-end"
+                            data-bs-toggle="modal" data-bs-target="#example">Je
                             m'abonne</button>
                     </div>
                 </div>
@@ -346,6 +347,30 @@
             </div>
         </div>
     </footer>
+    <div id="example" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">Restez informé !</div>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
+                fenêtre"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="   Votre adresse courriel">
+                            <i class="bi bi-envelope-at"></i>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
