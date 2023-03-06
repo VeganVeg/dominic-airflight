@@ -92,11 +92,12 @@ footer {
 .phone {
     width: 100%;
     aspect-ratio: 5/9;
+    align-items: center;
 }
 
 .iframe {
+    height: 100%;
     background-color: #703E8B;
-    height: 50%;
     width: 100%;
 }
 
@@ -155,7 +156,7 @@ footer {
 
 #section-infolettre {
     background-image: url(/app/assets/img/sincerely-media-023vgBIghs8-unsplash.jpg);
-    padding: 200px;
+    padding: 150px;
 }
 
 .background-color {
