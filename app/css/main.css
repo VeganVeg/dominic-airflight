@@ -6,6 +6,7 @@
     --blanc: #ffffff;
 }
 
+
 @font-face {
     font-family: 'antipastoBold';
     src: url('font/Antipasto-Pro-ExtraBold-trial.ttf') format('truetype');
@@ -19,11 +20,13 @@
 h1 {
     font-size: 60px;
     color: var(--indigo);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 h2 {
     font-size: 54px;
     color: var(--violet);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 h3 {
@@ -34,6 +37,7 @@ h3 {
 h4 {
     font-size: 30px;
     color: var(--violet);
+    font-family: 'Nunito', sans-serif;
 }
 
 h5 {
@@ -44,6 +48,11 @@ h5 {
 h6 {
     font-size: 20px;
     color: var(--violet);
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
 }
 
 /*--Styles--*/
