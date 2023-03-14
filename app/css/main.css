@@ -65,6 +65,10 @@ body {
     background-color: #703E8B;
 }
 
+.nav-item{
+    font-family: 'Nunito', sans-serif;
+}
+
 footer {
     padding: 1rem;
     margin-top: 1rem;
@@ -112,6 +116,7 @@ footer {
 
 .card-body {
     background-color: #703E8B;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 .card {
@@ -182,4 +187,12 @@ footer {
 
 section {
     margin-top: 100px;
+}
+
+button{
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.accordion-body{
+    font-family: 'Nunito', 'sans-serif';
 }
